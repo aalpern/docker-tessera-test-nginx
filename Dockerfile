@@ -1,8 +1,8 @@
 from nodesource/node:precise
-maintainer Adam Alpern <adm.alpern@gmail.com>
+maintainer Adam Alpern <adam.alpern@gmail.com>
 
-run apt-get update
-run apt-get install -y python-pip python-dev curl git gunicorn supervisor nginx-light emacs
+run apt-get -y update
+run apt-get -y install python-pip python-dev curl git gunicorn supervisor nginx-light emacs
 run	pip install bpython
 
 # Tessera
